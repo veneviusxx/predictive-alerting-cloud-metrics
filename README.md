@@ -10,7 +10,7 @@ This repository contains an end-to-end machine learning prototype for predicting
 * **Threshold Optimization:** Shifts away from standard accuracy metrics. Utilizes the Precision-Recall curve to find an optimal decision threshold, successfully achieving an **~80% incident detection rate (Recall)** while maintaining high **Precision (~88%)**.
 
 ## Tech Stack
-* Python 3
+* Python 
 * `pandas` & `numpy` (Data manipulation and windowing)
 * `scikit-learn` (RandomForestClassifier and PR-curve evaluation)
 * `matplotlib` (Visual analysis)
